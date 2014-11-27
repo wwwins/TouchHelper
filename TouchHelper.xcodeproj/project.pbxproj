@@ -1,0 +1,503 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D09F5F731A26D7FB00C253FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F721A26D7FB00C253FE /* main.m */; };
+		D09F5F761A26D7FB00C253FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F751A26D7FB00C253FE /* AppDelegate.m */; };
+		D09F5F791A26D7FB00C253FE /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F781A26D7FB00C253FE /* MasterViewController.m */; };
+		D09F5F7C1A26D7FB00C253FE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F7B1A26D7FB00C253FE /* DetailViewController.m */; };
+		D09F5F7F1A26D7FB00C253FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D09F5F7D1A26D7FB00C253FE /* Main.storyboard */; };
+		D09F5F811A26D7FB00C253FE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09F5F801A26D7FB00C253FE /* Images.xcassets */; };
+		D09F5F841A26D7FB00C253FE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09F5F821A26D7FB00C253FE /* LaunchScreen.xib */; };
+		D09F5F901A26D7FB00C253FE /* TouchHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F8F1A26D7FB00C253FE /* TouchHelperTests.m */; };
+		D09F5FA11A26DB0800C253FE /* KAWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F9B1A26DB0800C253FE /* KAWebViewController.m */; };
+		D09F5FA21A26DB0800C253FE /* KAWebViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D09F5F9C1A26DB0800C253FE /* KAWebViewController.xcassets */; };
+		D09F5FA31A26DB0800C253FE /* KAWModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5F9E1A26DB0800C253FE /* KAWModalWebViewController.m */; };
+		D09F5FA41A26DB0800C253FE /* KAWToolbarItems.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5FA01A26DB0800C253FE /* KAWToolbarItems.m */; };
+		D09F5FAC1A26DDEB00C253FE /* COSTouchVisualizerWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D09F5FA71A26DDEB00C253FE /* COSTouchVisualizerWindow.m */; };
+		D09F5FAD1A26DDEB00C253FE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D09F5FA91A26DDEB00C253FE /* .gitkeep */; };
+		D09F5FAE1A26DDEB00C253FE /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D09F5FAB1A26DDEB00C253FE /* .gitkeep */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D09F5F8A1A26D7FB00C253FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D09F5F651A26D7FB00C253FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09F5F6C1A26D7FB00C253FE;
+			remoteInfo = TouchHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D09F5F6D1A26D7FB00C253FE /* TouchHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09F5F711A26D7FB00C253FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09F5F721A26D7FB00C253FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D09F5F741A26D7FB00C253FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D09F5F751A26D7FB00C253FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D09F5F771A26D7FB00C253FE /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		D09F5F781A26D7FB00C253FE /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		D09F5F7A1A26D7FB00C253FE /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D09F5F7B1A26D7FB00C253FE /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D09F5F7E1A26D7FB00C253FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D09F5F801A26D7FB00C253FE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D09F5F831A26D7FB00C253FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D09F5F891A26D7FB00C253FE /* TouchHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09F5F8E1A26D7FB00C253FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09F5F8F1A26D7FB00C253FE /* TouchHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchHelperTests.m; sourceTree = "<group>"; };
+		D09F5F9A1A26DB0800C253FE /* KAWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWebViewController.h; sourceTree = "<group>"; };
+		D09F5F9B1A26DB0800C253FE /* KAWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWebViewController.m; sourceTree = "<group>"; };
+		D09F5F9C1A26DB0800C253FE /* KAWebViewController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = KAWebViewController.xcassets; sourceTree = "<group>"; };
+		D09F5F9D1A26DB0800C253FE /* KAWModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWModalWebViewController.h; sourceTree = "<group>"; };
+		D09F5F9E1A26DB0800C253FE /* KAWModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWModalWebViewController.m; sourceTree = "<group>"; };
+		D09F5F9F1A26DB0800C253FE /* KAWToolbarItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KAWToolbarItems.h; sourceTree = "<group>"; };
+		D09F5FA01A26DB0800C253FE /* KAWToolbarItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KAWToolbarItems.m; sourceTree = "<group>"; };
+		D09F5FA61A26DDEB00C253FE /* COSTouchVisualizerWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = COSTouchVisualizerWindow.h; sourceTree = "<group>"; };
+		D09F5FA71A26DDEB00C253FE /* COSTouchVisualizerWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = COSTouchVisualizerWindow.m; sourceTree = "<group>"; };
+		D09F5FA91A26DDEB00C253FE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D09F5FAB1A26DDEB00C253FE /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D09F5F6A1A26D7FB00C253FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F5F861A26D7FB00C253FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D09F5F641A26D7FB00C253FE = {
+			isa = PBXGroup;
+			children = (
+				D09F5F6F1A26D7FB00C253FE /* TouchHelper */,
+				D09F5F8C1A26D7FB00C253FE /* TouchHelperTests */,
+				D09F5F6E1A26D7FB00C253FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D09F5F6E1A26D7FB00C253FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5F6D1A26D7FB00C253FE /* TouchHelper.app */,
+				D09F5F891A26D7FB00C253FE /* TouchHelperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D09F5F6F1A26D7FB00C253FE /* TouchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5FA51A26DDD500C253FE /* COSTouchVisualizer */,
+				D09F5F991A26DB0800C253FE /* KAWebViewController */,
+				D09F5F741A26D7FB00C253FE /* AppDelegate.h */,
+				D09F5F751A26D7FB00C253FE /* AppDelegate.m */,
+				D09F5F771A26D7FB00C253FE /* MasterViewController.h */,
+				D09F5F781A26D7FB00C253FE /* MasterViewController.m */,
+				D09F5F7A1A26D7FB00C253FE /* DetailViewController.h */,
+				D09F5F7B1A26D7FB00C253FE /* DetailViewController.m */,
+				D09F5F7D1A26D7FB00C253FE /* Main.storyboard */,
+				D09F5F801A26D7FB00C253FE /* Images.xcassets */,
+				D09F5F821A26D7FB00C253FE /* LaunchScreen.xib */,
+				D09F5F701A26D7FB00C253FE /* Supporting Files */,
+			);
+			path = TouchHelper;
+			sourceTree = "<group>";
+		};
+		D09F5F701A26D7FB00C253FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5F711A26D7FB00C253FE /* Info.plist */,
+				D09F5F721A26D7FB00C253FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09F5F8C1A26D7FB00C253FE /* TouchHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5F8F1A26D7FB00C253FE /* TouchHelperTests.m */,
+				D09F5F8D1A26D7FB00C253FE /* Supporting Files */,
+			);
+			path = TouchHelperTests;
+			sourceTree = "<group>";
+		};
+		D09F5F8D1A26D7FB00C253FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5F8E1A26D7FB00C253FE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D09F5F991A26DB0800C253FE /* KAWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5F9A1A26DB0800C253FE /* KAWebViewController.h */,
+				D09F5F9B1A26DB0800C253FE /* KAWebViewController.m */,
+				D09F5F9C1A26DB0800C253FE /* KAWebViewController.xcassets */,
+				D09F5F9D1A26DB0800C253FE /* KAWModalWebViewController.h */,
+				D09F5F9E1A26DB0800C253FE /* KAWModalWebViewController.m */,
+				D09F5F9F1A26DB0800C253FE /* KAWToolbarItems.h */,
+				D09F5FA01A26DB0800C253FE /* KAWToolbarItems.m */,
+			);
+			path = KAWebViewController;
+			sourceTree = "<group>";
+		};
+		D09F5FA51A26DDD500C253FE /* COSTouchVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5FA61A26DDEB00C253FE /* COSTouchVisualizerWindow.h */,
+				D09F5FA71A26DDEB00C253FE /* COSTouchVisualizerWindow.m */,
+				D09F5FA81A26DDEB00C253FE /* ios */,
+				D09F5FAA1A26DDEB00C253FE /* osx */,
+			);
+			name = COSTouchVisualizer;
+			sourceTree = "<group>";
+		};
+		D09F5FA81A26DDEB00C253FE /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5FA91A26DDEB00C253FE /* .gitkeep */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+		D09F5FAA1A26DDEB00C253FE /* osx */ = {
+			isa = PBXGroup;
+			children = (
+				D09F5FAB1A26DDEB00C253FE /* .gitkeep */,
+			);
+			path = osx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D09F5F6C1A26D7FB00C253FE /* TouchHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09F5F931A26D7FB00C253FE /* Build configuration list for PBXNativeTarget "TouchHelper" */;
+			buildPhases = (
+				D09F5F691A26D7FB00C253FE /* Sources */,
+				D09F5F6A1A26D7FB00C253FE /* Frameworks */,
+				D09F5F6B1A26D7FB00C253FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchHelper;
+			productName = TouchHelper;
+			productReference = D09F5F6D1A26D7FB00C253FE /* TouchHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D09F5F881A26D7FB00C253FE /* TouchHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D09F5F961A26D7FB00C253FE /* Build configuration list for PBXNativeTarget "TouchHelperTests" */;
+			buildPhases = (
+				D09F5F851A26D7FB00C253FE /* Sources */,
+				D09F5F861A26D7FB00C253FE /* Frameworks */,
+				D09F5F871A26D7FB00C253FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D09F5F8B1A26D7FB00C253FE /* PBXTargetDependency */,
+			);
+			name = TouchHelperTests;
+			productName = TouchHelperTests;
+			productReference = D09F5F891A26D7FB00C253FE /* TouchHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D09F5F651A26D7FB00C253FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isobar;
+				TargetAttributes = {
+					D09F5F6C1A26D7FB00C253FE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					D09F5F881A26D7FB00C253FE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = D09F5F6C1A26D7FB00C253FE;
+					};
+				};
+			};
+			buildConfigurationList = D09F5F681A26D7FB00C253FE /* Build configuration list for PBXProject "TouchHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D09F5F641A26D7FB00C253FE;
+			productRefGroup = D09F5F6E1A26D7FB00C253FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D09F5F6C1A26D7FB00C253FE /* TouchHelper */,
+				D09F5F881A26D7FB00C253FE /* TouchHelperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D09F5F6B1A26D7FB00C253FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F5F7F1A26D7FB00C253FE /* Main.storyboard in Resources */,
+				D09F5FA21A26DB0800C253FE /* KAWebViewController.xcassets in Resources */,
+				D09F5FAD1A26DDEB00C253FE /* .gitkeep in Resources */,
+				D09F5FAE1A26DDEB00C253FE /* .gitkeep in Resources */,
+				D09F5F841A26D7FB00C253FE /* LaunchScreen.xib in Resources */,
+				D09F5F811A26D7FB00C253FE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F5F871A26D7FB00C253FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D09F5F691A26D7FB00C253FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F5F761A26D7FB00C253FE /* AppDelegate.m in Sources */,
+				D09F5F791A26D7FB00C253FE /* MasterViewController.m in Sources */,
+				D09F5F731A26D7FB00C253FE /* main.m in Sources */,
+				D09F5FAC1A26DDEB00C253FE /* COSTouchVisualizerWindow.m in Sources */,
+				D09F5FA11A26DB0800C253FE /* KAWebViewController.m in Sources */,
+				D09F5FA41A26DB0800C253FE /* KAWToolbarItems.m in Sources */,
+				D09F5F7C1A26D7FB00C253FE /* DetailViewController.m in Sources */,
+				D09F5FA31A26DB0800C253FE /* KAWModalWebViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09F5F851A26D7FB00C253FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D09F5F901A26D7FB00C253FE /* TouchHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D09F5F8B1A26D7FB00C253FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D09F5F6C1A26D7FB00C253FE /* TouchHelper */;
+			targetProxy = D09F5F8A1A26D7FB00C253FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D09F5F7D1A26D7FB00C253FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09F5F7E1A26D7FB00C253FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D09F5F821A26D7FB00C253FE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D09F5F831A26D7FB00C253FE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D09F5F911A26D7FB00C253FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D09F5F921A26D7FB00C253FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D09F5F941A26D7FB00C253FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D09F5F951A26D7FB00C253FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TouchHelper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D09F5F971A26D7FB00C253FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchHelper.app/TouchHelper";
+			};
+			name = Debug;
+		};
+		D09F5F981A26D7FB00C253FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TouchHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchHelper.app/TouchHelper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D09F5F681A26D7FB00C253FE /* Build configuration list for PBXProject "TouchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09F5F911A26D7FB00C253FE /* Debug */,
+				D09F5F921A26D7FB00C253FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D09F5F931A26D7FB00C253FE /* Build configuration list for PBXNativeTarget "TouchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09F5F941A26D7FB00C253FE /* Debug */,
+				D09F5F951A26D7FB00C253FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D09F5F961A26D7FB00C253FE /* Build configuration list for PBXNativeTarget "TouchHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D09F5F971A26D7FB00C253FE /* Debug */,
+				D09F5F981A26D7FB00C253FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D09F5F651A26D7FB00C253FE /* Project object */;
+}
