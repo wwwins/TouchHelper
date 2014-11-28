@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
@@ -84,7 +85,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="http://" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45M-wf-vjH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="http://" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45M-wf-vjH">
                                 <rect key="frame" x="16" y="72" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -93,7 +94,7 @@
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="google.com" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LnQ-ef-DDc">
                                 <rect key="frame" x="0.0" y="-30" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vqs-54-in9">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -143,8 +144,6 @@
                                 <exclude reference="Vqs-54-in9"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="XBl-Sc-IFx"/>
-                                <exclude reference="zX8-cx-jNK"/>
                                 <exclude reference="5I5-Te-Cbd"/>
                                 <exclude reference="PcG-aa-WDm"/>
                                 <exclude reference="rA2-CN-BMq"/>
@@ -153,6 +152,8 @@
                                 <exclude reference="kfl-4i-65l"/>
                                 <exclude reference="wHZ-rp-Use"/>
                                 <exclude reference="xYH-FS-fh1"/>
+                                <exclude reference="XBl-Sc-IFx"/>
+                                <exclude reference="zX8-cx-jNK"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -161,8 +162,6 @@
                                 <include reference="Vqs-54-in9"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="XBl-Sc-IFx"/>
-                                <include reference="zX8-cx-jNK"/>
                                 <include reference="5I5-Te-Cbd"/>
                                 <include reference="PcG-aa-WDm"/>
                                 <include reference="rA2-CN-BMq"/>
@@ -171,6 +170,8 @@
                                 <exclude reference="kfl-4i-65l"/>
                                 <include reference="wHZ-rp-Use"/>
                                 <include reference="xYH-FS-fh1"/>
+                                <include reference="XBl-Sc-IFx"/>
+                                <include reference="zX8-cx-jNK"/>
                             </mask>
                         </variation>
                     </view>
@@ -194,6 +195,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Hlp-Mm-R3i"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="eN0-mg-RK4">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
