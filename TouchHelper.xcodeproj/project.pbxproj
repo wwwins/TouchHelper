@@ -488,6 +488,7 @@
 				D09F5F951A26D7FB00C253FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D09F5F961A26D7FB00C253FE /* Build configuration list for PBXNativeTarget "TouchHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				D09F5F981A26D7FB00C253FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
